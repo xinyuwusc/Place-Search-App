@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Places Search</string>
+    <string name="keywordlabel">Keyword</string>
+    <string name="keyword">Enter keyword</string>
+    <string name="categorylabel">Category</string>
+    <string-array name="category_array">
+        <item>Default</item>
+        <item>Airport</item>
+        <item>Amusement Park</item>
+        <item>Aquarium</item>
+        <item>Art Gallery</item>
+        <item>Bakery</item>
+        <item>Bar</item>
+        <item>Beauty Salon</item>
+        <item>Bowling Alley</item>
+        <item>Bus Station</item>
+        <item>Cafe</item>
+        <item>Campground</item>
+        <item>Car Rental</item>
+        <item>Casino</item>
+        <item>Lodging</item>
+        <item>Movie Theater</item>
+        <item>Museum</item>
+        <item>Night Club</item>
+        <item>Park</item>
+        <item>Parking</item>
+        <item>Restaurant</item>
+        <item>Shopping Mall</item>
+        <item>Stadium</item>
+        <item>Subway Station</item>
+        <item>Taxi Stand</item>
+        <item>Train Station</item>
+        <item>Transit Station</item>
+        <item>Travel Agency</item>
+        <item>Zoo</item>
+    </string-array>
+    <string name="distancelabel">Distance(in miles)</string>
+    <string name="distance">Enter distance (default 10 miles)</string>
+    <string name="fromlabel">From</string>
+    <string name="here">Current location</string>
+    <string name="specific">Other. Specify Location</string>
+    <string name="location">Type in the Location</string>
+    <string name="search">SEARCH</string>
+    <string name="clear">CLEAR</string>
+    <string name="topsearch">SEARCH</string>
+    <string name="favorite">FAVORITE</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="next">NEXT</string>
+    <string name="searchtitle">Search results</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="addresslabel">Address</string>
+    <string name="phonelabel">Phone Number</string>
+    <string name="pricelabel">Price Level</string>
+    <string name="ratinglabel">Rating</string>
+    <string name="googlelabel">Google Page</string>
+    <string name="websitelabel">Website</string>
+    <string name="info">INFO</string>
+    <string name="photos">PHOTOS</string>
+    <string name="maps">MAPS</string>
+    <string name="reviews">REVIEWS</string>
+</resources>

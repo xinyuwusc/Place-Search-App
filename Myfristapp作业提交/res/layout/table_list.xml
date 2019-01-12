@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="6"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="20dp">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="60dp"
+            android:minHeight="60dp"
+            android:layout_alignParentTop="true"
+            android:gravity="start"
+            android:layout_marginRight="40dp"
+            android:layout_marginEnd="30dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_alignParentTop="true"
+            android:gravity="start"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="70dp" />
+
+        <TextView
+            android:id="@+id/vicinity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:textSize="16sp"
+            android:gravity="start"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="30dp" />
+
+        <ImageView
+            android:id="@+id/heart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20dp"
+            android:minHeight="20dp"
+            android:src="@drawable/heart_outline_black"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:adjustViewBounds="true"
+            android:scaleType="center" />
+
+</RelativeLayout>
